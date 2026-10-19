@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+ajgar/__init__.py
+ajgar/__main__.py
+ajgar/englishcli.py
+ajgar/hindicli.py
+ajgar/processed.py
+ajgar/test.py
+ajgar/transpiler.py
+ajgar/wordreplace.py
+ajgar.egg-info/PKG-INFO
+ajgar.egg-info/SOURCES.txt
+ajgar.egg-info/dependency_links.txt
+ajgar.egg-info/entry_points.txt
+ajgar.egg-info/top_level.txt

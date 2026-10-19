@@ -1,0 +1,3 @@
+[console_scripts]
+ajgar = ajgar.hindicli:main
+ajgar-english = ajgar.englishcli:main

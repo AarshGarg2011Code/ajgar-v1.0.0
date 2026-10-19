@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ajgar"
+version = "1.0.0"
+authors = [
+  { name="Aarsh Garg", email="aarshg.13@gmail.com" },
+]
+description = "Write Python in pure Devanagari Hindi! शुद्ध देवनागरी हिंदी में पायथन लिखें!"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["hindi", "devanagari", "localization", "programming", "हिंदी", "देवनागरी", "अजगर"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Hindi",
+]
+[project.urls]
+"Homepage" = "https://github.com/AarshGarg2011Code/ajgar-v1.0.0"
+[project.scripts]
+ajgar = "ajgar.hindicli:main"
+ajgar-english = "ajgar.englishcli:main"
